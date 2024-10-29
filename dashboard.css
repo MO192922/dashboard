@@ -1,0 +1,128 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: white;
+  font-family: sans-serif;
+}
+body{
+  background-color: #001;
+  display: flex;
+
+}
+.box-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: solid 3px whitesmoke;
+  flex-shrink: 0;
+
+}
+
+.box-img img{
+  width: 100%;
+}
+.prtofolio{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.manu{
+  background-color: #123;
+  width: 80px;
+  height: 100vh;
+  padding: 20px;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+.manu:hover {
+  width: 300px;
+}
+ul{
+  list-style: none;
+  position: relative; 
+  height: 100%;
+}
+ul li a{
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px 0px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+ul li a:hover,.active {
+  background-color: #ffffff55;
+}
+.log-out{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+}
+.log-out a{
+  background-color: red;
+}
+ul li a i {
+  font-size: 20px;
+}
+.content{
+  width: 100%;
+  margin:10px;
+}
+.tittlle-info{
+  background-color: #0481ff;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  border-radius: 8px;
+ 
+}
+.data-invo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.data-invo .boxs{
+ background-color: #123;
+ height: 150px;
+ flex-basis: 150px;
+ flex-grow: 1;
+ border-radius: 8px;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+.data-invo .boxs i{
+ font-size: 30px;
+}
+.data-invo .boxs .data{
+  text-align: center;
+}
+.data-invo .boxs .data span{
+  font-size: 30px;
+}
+table{
+  width: 100%;
+  text-align: center;
+}
+th,td{
+  background-color: #123;
+  height: 40px;
+  border-radius: 8px;
+}
+th{
+  background-color: #0481ff;
+}
+
+
